@@ -1,0 +1,59 @@
+.contenner{
+    text-align: center;
+}
+.contenner h2{
+    margin: 15px;  
+    padding-left: 10px;      /* ruang agar teks tidak mepet garis */
+    border-left: 4px solid #22c55e; 
+    text-align: left;
+}
+.contenner p{
+    text-align: left;
+}
+.judulawal{
+    text-align: center;
+}
+.judulawal img{
+    display: block;
+    margin:  0 auto;
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+.judulawal h1{
+    color:rgb(22, 59, 182);
+    font-size: 50px ;
+    margin: 0;
+}
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin: 20px;
+  padding: 20px auto;
+  text-align: left;
+}
+.card p{
+    margin: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    color: #374151; 
+    line-height: 1.6; 
+    text-align: left;
+}
+.card img {
+    margin: 15px;
+    width: 200px;          
+    height: 200px;         
+    object-fit: cover;    
+    border-radius: 50%;
+    border: 3px solid #e5e7eb;
+}
+.card ul ol{
+    text-align: left;
+}
+
+.link{
+    display: block;
+    text-align: center;
+}

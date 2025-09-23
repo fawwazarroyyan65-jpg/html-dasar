@@ -1,0 +1,77 @@
+<!-- shortcut struktur dasar html5 di vscode -->
+<!-- ketikan html:5 lalu klik atau tekan tab -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Attributes</title>
+    <style>
+        /* ini komentar  */
+         /* ]id di tandai dengan tanda # */
+        #box1{
+            
+        background-color: aqua;
+        width: 400px;
+        padding: 20px;
+        }
+        #box2{
+        background-color: tomato;
+        width: 200px;
+        padding: 20px;
+        margin: 30px;
+        }
+        #box2 h1{
+        color: maroon; 
+         text-align: center
+        }
+         #title{
+            color: indigo;
+         }
+         /* class denngan .(titik) */
+         .deskripsi{
+            color: brown;
+            font-size: 20px
+         }
+         p{
+            /* jenis font   */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+    </style>
+  </head>
+  <body>
+    <div id="box1" >
+      <h1 id="title">Belajar Attribute</h1>
+      
+      <p class="deskripsi">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <b style="font-size: 25px">Porro</b> dolores animi quae maxime error
+        pariatur quisquam similique!
+        <u style="color: #fff; background-color: black">Veritatis</u>,
+        voluptatum ipsa molestiae voluptatibus, eligendi nobis fugit, quas
+        voluptatem porro necessitatibus magnam.
+      </p>
+    </div>
+    <br />
+    
+    <div id="box2">
+      <h1>Kotak Baru</h1>
+      <p>Ini div bawah</p>
+      
+      <a href="https://google.com" target="_blank">Klik Google ke Tab Baru</a>
+<!-- attribut  ol type :a,A,i,I -->
+    <ol type="I">
+        <li>tomat</li>
+        <li>brokoli</li>
+        <li>bawang</li>
+        <li>cabe</li>
+    </ol>
+    <!-- attribut ul type:circle,square,none  -->
+     <ul type="square">
+        <li>purworejo</li>
+        <li>bandung</li>
+        <li>padamnagn</li>
+     </ul>
+    </div>
+  </body>
+</html>
