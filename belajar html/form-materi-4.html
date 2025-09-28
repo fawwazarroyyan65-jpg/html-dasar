@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+
+</head>
+<body>
+    <main class="container"></main>
+    <h1>HTML 5 FORM</h1>
+    <hr>
+    <form>
+        <div>
+            <!-- tips shortcart : input:typenya -->
+             <label for="inputname">nama lengkap</label>
+             <input type="text" name="nama" id="inputname" />
+        </div>
+        <div>
+            <!-- tips shortcart : input:typenya -->
+             <label for="inputage">umur</label>
+             <input type="number" name="umur" id="inputage"/>
+        </div>
+        <div>
+    <label for="inputbio">biografi</label>
+    <textarea name="bio" id="inputbio"></textarea>
+
+        </div>
+        <div>
+            <input type="radio" name="jenis_kelamin" id="input_lanang">
+            <label for="input_lanang"> laki-laki</label>
+            <input type="radio" name="jenis_kelamin" id="inputwedok">
+            <label for="inputwedok">perempuan</label>
+            <br/><br/>
+        </div>
+        <div>
+            <p>hobi/minat</p>
+            <input type="checkbox" name="hobi" id="input_mancing">
+            <label for="input_mancing">mancing</label>
+            <input type="checkbox" name="hobi" id="input_futsal">
+            <label for="input_futsal">futsal</label>
+            <input type="checkbox" name="hobi" id="input_turu">
+            <label for="input_turu">turu</label>
+            <br/><br/>
+        </div>
+        <div>
+            <label for="input_asal"></label>
+            <select name="asal_daerah" id="input_asal">
+                <option value="jkt">jakarta</option>
+                <option value="bgr">bogor</option>
+                <option value="bnd">bandung</option>
+                <option value="yog">yogyakarta</option>
+            </select>
+            <br/><br/>
+        </div>
+        
+        <!-- action button -->
+         <div class="grid">
+            <button type="reset">batalkan</button>
+            <button type="submit">kirim</button>
+         </div>
+    </form>
+</body>
+</html>

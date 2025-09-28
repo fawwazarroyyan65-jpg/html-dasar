@@ -4,21 +4,19 @@
 .contenner h2{
     margin: 15px;  
     padding-left: 10px;      /* ruang agar teks tidak mepet garis */
-    border-left: 4px solid #22c55e; 
-    text-align: left;
+    border-left: 4px solid #22c55e;  /*membuat garis tepi di sisi kiri elemen*/
+    
 }
 .contenner p{
     text-align: left;
 }
 .judulawal{
-    text-align: center;
+    text-align: center; 
 }
 .judulawal img{
-    display: block;
     margin:  0 auto;
     width: 100px;
     height: auto;
-    align-items: center;
 }
 .judulawal h1{
     color:rgb(22, 59, 182);
@@ -26,9 +24,9 @@
     margin: 0;
 }
 .card {
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  background: #fff; /*mengatur warna bakground*/
+  border: 1px solid #e5e7eb; /*membuat garis tepi di sekitar elemen*/
+  border-radius: 12px; /*membuat sudut elemen menumpul*/ 
   margin: 20px;
   padding: 20px auto;
   text-align: left;
@@ -37,15 +35,15 @@
     margin: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
-    color: #374151; 
-    line-height: 1.6; 
+    color: #374151;             /*untuk tingiin baris */
+    line-height: 1.6;            /*mengatur tinggi baris*/
     text-align: left;
 }
 .card img {
     margin: 15px;
     width: 200px;          
     height: 200px;         
-    object-fit: cover;    
+    object-fit: cover;    /*agar gambar tetap proposional*/
     border-radius: 50%;
     border: 3px solid #e5e7eb;
 }
@@ -54,6 +52,5 @@
 }
 
 .link{
-    display: block;
     text-align: center;
 }
