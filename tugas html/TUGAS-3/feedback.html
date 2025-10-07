@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenner">
+      <h1>formulir umpan balik</h1>
+      <div class="nav">
+        <a href="index.html">beranda</a>
+        <a href="biodata.html">biodata</a>
+        <a href="jadwa.html">jadwal</a>
+        <a href="galeri.html">galeri</a>
+        <a href="feedback.html" class="active">feedback</a>
+      </div>
+      <div class="card">
+        <h2>formulir kontak & saran</h2>
+        <p>
+          berikan masukan terbaik anda agar website profil ini berkembang,semua
+          input bersifat wajib kecuali nama
+        </p>
+        <form action="https://httpbin.org/post" method="post">
+          <div>
+            <h3>nama anda (opsional):</h3>
+            <label for="inputnama"></label>
+            <input
+              type="text"
+              name="nama"
+              id="inputnama"
+              placeholder="Tulis nama Anda"
+            />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Masukkan email"
+            />
+          </div>
+          <div>
+            <label for="rating">Rating Kepuasan Website (Skala 1-10):</label>
+            <input
+              type="number"
+              id="rating"
+              name="rating"
+              min="1"
+              max="10"
+              placeholder="Masukkan angka 1 hingga 10"
+              required
+            />
+          </div>
+          <h3>rekomandasi wbsite ini?</h3>
+          <div class="inline-group">
+            <label>
+              <input type="radio" name="rekomendasi" value="Ya, Sangat" /> Ya,
+              Sangat
+            </label>
+            <label>
+              <input type="radio" name="rekomendasi" value="Mungkin Saja" />
+              Mungkin Saja
+            </label>
+            <label>
+              <input type="radio" name="rekomendasi" value="Tidak" /> Tidak
+            </label>
+          </div>
+          <h3>topik yng paling menarik</h3>
+          <div class="inline-group">
+            <input type="checkbox" name="topik" id="biodata" />
+            <label for="biodata">biodata</label>
+            <input type="checkbox" name="topik" id="jadwal" />
+            <label for="jadwal">jadwal</label>
+            <input
+              type="checkbox"
+              name="topik"
+              id="
+            galeri"
+            />
+            <label
+              for="
+            galeri"
+              >galeri</label
+            >
+          </div>
+          <div>
+            <h3>saran pengembangan di bidang :</h3>
+            <label for="input_asal"></label>
+            <select name="saran" id="saran-pengembangan ">
+              <option value="" disabled selected hidden>
+                -- Pilih bidang --
+              </option>
+              <option value="disen">design web</option>
+              <option value="interksi">interaksi kpd user</option>
+              <option value="isi web">lebih di isi webnya</option>
+              <option value="rapikan">lebih di rapikan web nya</option>
+            </select>
+          </div>
+          <h3>pesan saran/lengkap</h3>
+          <div>
+            <label for="inputbio"></label
+            ><textarea
+              name="bio"
+              id="inputbio"
+              placeholder="tulis pesan dan saran anda secara ditail disini..."
+            ></textarea>
+          </div>
+          <div class="tombol">
+            <button class="button" type="reset">atur ulang</button>
+            <button class="button" type="submit">kirim feedback</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

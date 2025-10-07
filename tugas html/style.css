@@ -1,0 +1,25 @@
+.gallery{
+    text-align: center;
+}
+.gallery h2{
+    color: indigo;
+    font-size: 40px;
+}
+.gallery .kotak{
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.gallery .kotak img{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+}
+.gallery .kotak figcaption{
+    background-color: indigo;
+    padding: 8PX;
+    margin-top: -7px;
+}

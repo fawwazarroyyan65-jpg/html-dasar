@@ -1,0 +1,182 @@
+.contenner {
+  text-align: center;
+}
+.contenner h2 {
+  margin: 15px;
+  padding-left: 10px; /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid #22c55e; /*membuat garis tepi di sisi kiri elemen*/
+}
+.contenner h1 {
+  color: rgb(22, 59, 182);
+  font-size: 50px;
+  margin: 0;
+}
+.contenner p {
+  text-align: left;
+}
+.judulawal {
+  text-align: center;
+}
+.judulawal img {
+  margin: 0 auto;
+  width: 100px;
+  height: auto;
+}
+.judulawal h1 {
+  color: rgb(22, 59, 182);
+  font-size: 50px;
+  margin: 0;
+}
+.card {
+  background: #fff; /*mengatur warna bakground*/
+  border: 1px solid #e5e7eb; /*membuat garis tepi di sekitar elemen*/
+  border-radius: 12px; /*membuat sudut elemen menumpul*/
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+.card p {
+  margin: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  color: #374151; /*untuk tingiin baris */
+  line-height: 1.6; /*mengatur tinggi baris*/
+  text-align: left;
+}
+.card img {
+  margin: 15px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /*agar gambar tetap proposional*/
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+}
+.card ul ol {
+  text-align: left;
+}
+.nav {
+  display: flex;
+  justify-content: center; /* biar rata tengah */
+  gap: 10px; /* jarak antar tombol */
+  margin: 20px 0;
+  border-top: 1px solid #e2e2e3;
+  border-bottom: 1px solid #e2e2e3;
+  padding: 20px;
+}
+.nav a {
+  text-decoration: none; /* hilangin underline */
+  padding: 8px 20px; /* ruang dalam tombol */
+  border: 1px solid #e5e7eb; /* garis tipis abu */
+  border-radius: 9999px; /* bikin oval/pill */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #374151; /* teks abu gelap */
+  background: #fff; /*latar putih*/
+  transition: 0.3s; /*efek halus*/
+}
+.nav a:hover {
+  background: #1d4ed8;
+  color: white; /* efek hover abu muda */
+}
+.nav a.active {
+  background: #1d4ed8; /* biru */
+  color: #fff; /* teks putih */
+  border-color: #1d4ed8;
+}
+
+table.jadwal {
+  width: 100%; /*lebar penuh*/
+  border-collapse: collapse; /* biar garis gabung */
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+table.jadwal thead th {
+  background: #1d4ed8; /*  latar biru */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+table.jadwal th,
+table.jadwal td {
+  border: 1px solid #e5e7eb; /*garis antar abu tipis */
+  padding: 8px 12px;
+  text-align: center;
+}
+
+table.jadwal tbody tr:nth-child(even) {
+  background: #f9fafb; /* warna selang-seling */
+}
+.gallery {
+  text-align: center;
+}
+.gallery h2 {
+  color: rgb(22, 59, 182);
+  font-size: 40px;
+}
+.gallery .kotak {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.gallery .kotak img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+}
+.gallery .kotak figcaption {
+  background-color: #ddd;
+  padding: 8px;
+  margin-top: -6px;
+}
+.ktk {
+  background: #fff; /*mengatur warna bakground*/
+  border: 1px solid #e5e7eb; /*membuat garis tepi di sekitar elemen*/
+  border-radius: 12px; /*membuat sudut elemen menumpul*/
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 16px; /* jarak antar pilihan */
+  font-family: sans-serif;
+}
+input,
+select,
+textarea,
+button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.inline-group {
+  display: flex;
+  align-items: center; /* teks sejajar dengan radio */
+  gap: 5px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 16px; /* jarak antar pilihan */
+  font-family: sans-serif;
+}
+
+.inline-group label {
+  font-weight: normal;
+  vertical-align: middle; /* bikinsejajar*/
+  display: inline-block;
+}
+.tombol {
+  display: flex;
+  justify-content: flex-end;
+}
