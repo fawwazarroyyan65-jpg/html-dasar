@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+.text-center{
+    text-align: center;
+}
+.text-kiri{
+    text-align: left;
+}
+.text-kanan{
+    text-align: right;
+}
+.text-tengah{
+    text-align: center;
+}
+.text-rata{
+    text-align: justify;
+}
+.menyala{
+    /*ukuran font*/
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+.gelap{
+    color: darkblue;
+    font-weight: bold;
+}
+.botton-save{
+    text-decoration: none;
+    background: darkblue;
+    color: white;
+    padding: 6px 10px;
+
+}
+.coret{
+    text-decoration: line-through;
+}
+.text-rendah{
+    line-height: 0,8;
+    background-color: yellow;
+    padding: 4px;
+}
+.text-tinggi{
+    line-height: 1,5;
+    background-color: greenyellow;
+    padding: 3px;
+}
+.text-rapat{
+    letter-spacing: 0,5;
+    background-color:pink;
+    padding: 4px;
+
+    font-family:serif;
+}
+.text-longgar{
+     letter-spacing: -2;
+    background-color: palevioletred;
+    padding: 4px;
+    /* impact */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text-padat{
+    word-spacing: -4px;
+    background-color: springgreen;
+    padding: 4px;
+    /* monospace */
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-selaw{
+    word-spacing: 6px;
+    background-color: springgreen;
+    padding: 4px;
+    /* sans-serif */
+    font-family: sans-serif;
+}
+@font-face{
+    font-family: 'Font Digital';
+    src: url(fonts/digital-7.ttf);
+}
+.digtal{
+    font-family: 'Font Digital';
+}
+.tulis-tangan{
+    font-family: "Playwrite DE SAS", cursive ;
+}

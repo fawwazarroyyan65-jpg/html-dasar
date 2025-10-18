@@ -1,0 +1,65 @@
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 250px;
+  width: 250px;
+  border: 2px dashed #333;
+  border-radius: 6px;
+}
+.area {
+  width: 200px;
+  height: 200px;
+  place-content: center;
+}
+
+.area h3,
+.area p {
+  margin: 0 auto;
+}
+.area p {
+  font-size: 14px;
+  color: #666;
+}
+#box-A{
+  background: khaki;
+}
+#box-b{
+  background: yellow;
+  padding: 40px;
+}
+#box-c{
+  background: orange;
+  padding: 40px;
+  border: 10px solid #333;
+}
+#box-d{
+  background: orangered;
+  padding: 40px;
+  border: 10px solid #333;
+  margin: 35px;
+  /* margin bisa di atur seseuai arah nya dan bisa di gbaung dalam satu margin  */
+  /* contoh :margin :10px 20px 30px 40px mulai daru atsa ke kanan */
+}
+#box-static{
+  background: pink;
+}
+#box-relative {
+  background: yellowgreen;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+#box-absolut{
+  background: tomato;
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+}
+#box-fixed{
+  background: greenyellow;
+  position: fixed;
+  bottom: 15px;
+  right: 14px;
+}

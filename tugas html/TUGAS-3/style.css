@@ -113,10 +113,6 @@ table.jadwal tbody tr:nth-child(even) {
 .gallery {
   text-align: center;
 }
-.gallery h2 {
-  color: rgb(22, 59, 182);
-  font-size: 40px;
-}
 .gallery .kotak {
   display: inline-block;
   width: 200px;
