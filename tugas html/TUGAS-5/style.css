@@ -1,0 +1,117 @@
+
+.card { 
+  background: #fff;              /* warna latar putih */
+  border-radius: 15px;           /* sudut melengkung */
+  padding: 20px;                 /* jarak dalam isi */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* bayangan lembut */
+  font-family: Arial, sans-serif; /* jenis huruf */
+  margin: 20px;                  /* jarak antar elemen */
+}
+.card h1 {
+  margin: 0px;                   /* hapus jarak bawaan heading */
+}
+
+
+.alert {
+  position: relative;            /* agar elemen di dalam bisa di-posisi absolute */
+  background: #38bdf8;           /* warna latar biru muda */
+  border: 1px solid #38bdf8;     /* garis tepi biru */
+  border-radius: 8px;            /* sudut melengkung */
+  padding: 0px 6px;              /* jarak horizontal isi */
+}
+.close {
+  position: absolute;            /* posisi bebas di dalam alert */
+  right: 10px;                   /* jarak dari kanan */
+  top: 15px;                     /* jarak dari atas */
+  cursor: pointer;               /* ubah kursor jadi tangan */
+  transition: all 0.2s ease;     /* animasi halus */
+}
+.close:hover {
+  background: #bae6fd;           /* ubah warna saat hover */
+}
+
+
+.avatar {
+  width: fit-content;            /* lebar sesuai isi */
+  display: flex;                 /* gunakan flexbox */
+  flex-direction: column;        /* susun vertikal */
+  align-items: center;           /* rata tengah horizontal */
+  position: relative;            /* untuk posisi badge */
+  margin-bottom: 10px;           /* jarak bawah */
+  font-size: 15px;               /* ukuran teks */
+  line-height: 0px;              /* hapus jarak antar baris */
+}
+.avatar img {
+  width: 100px;                  /* lebar gambar */
+  height: 100px;                 /* tinggi gambar */
+  border-radius: 50%;            /* bentuk bulat */
+  object-fit: cover;             /* potong gambar agar proporsional */
+}
+.avatar:hover {
+  transform: scale(1.05);        /* efek membesar saat hover */
+}
+
+
+.badge {
+  line-height: normal;
+  position: absolute;            /* agar bisa di pojok gambar */
+  top: 15px;                     /* jarak dari atas */
+  right: 25px;                   /* jarak dari kanan */
+  background: #22c55e;           /* warna hijau */
+  color: #fff;                   /* teks putih */
+  padding: 3px 8px;              /* ruang dalam */
+  border-radius: 12px;           /* bentuk membulat */
+  font-size: 12px;               /* ukuran teks kecil */
+}
+
+
+.pricing {
+  background: #fff;              /* latar putih */
+  border-radius: 15px;           /* sudut melengkung */
+  padding: 10px;                 /* jarak dalam */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* bayangan lembut */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;                 /* sejajarkan isi horizontal */
+  justify-content: center;       /* pusatkan isi */
+  gap: 20px;
+}
+
+
+.plan {
+  background: #fff;              /* latar putih */
+  border-radius: 16px;           /* sudut lembut */
+  border: 1px solid #ddd;        /* garis tepi abu muda */
+  padding: 10px;                 /* jarak dalam */
+  text-align: center;            /* teks rata tengah */
+  width: 240px;                  /* lebar tetap */
+  margin: 16px;                  /* jarak antar plan */
+}
+.plan .price {
+  font-weight: 600;              /* teks tebal */
+  color: #624bfc;                /* warna ungu */
+  font-size: 20px;               /* ukuran besar */
+}
+.plan p {
+  line-height: 25px;             /* tinggi baris nyaman */
+  color: #535151;                /* teks abu-abu gelap */
+}
+.plan.highlight {
+  border-color: #624bfc;         /* border ungu */
+  transform: scale(1.05);        /* kartu sedikit membesar */
+}
+
+
+.plan button {
+  background: #624bfc;           /* warna ungu */
+  color: #fff;                   /* teks putih */
+  padding: 8px 24px;             /* ukuran tombol */
+  border: none;                  /* tanpa garis tepi */
+  border-radius: 8px;            /* sudut halus */
+  margin-top: 12px;              /* jarak atas */
+  cursor: pointer;               /* ubah kursor jadi tangan */
+  font-size: 1rem;               /* ukuran teks tombol */
+}
+.plan button:hover {
+  transform: scale(1.05);        /* efek membesar saat hover */
+}

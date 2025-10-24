@@ -29,14 +29,14 @@ main h2 {
   font-family: "Poppins", sans-serif;
 }
 main {
-  text-align: left;
-  font-size: 15px;
-  font-weight: 500;
+   text-align: left;/* mengatur tenoat text */
+  font-size: 15px;/*mengatur besar font*/
+  font-weight: 500; /*mengtur ketebalan */
   font-family: sans-serif;
-  word-spacing: 2px;
-  letter-spacing: 0px;
-  line-height: 25px;
-  text-transform: capitalize;
+  word-spacing: 2px; /*jarak antar kata*/
+  letter-spacing: 0px;/*jarak antar huruf*/
+  line-height: 25px; /*jarak antar baris */
+  text-transform: capitalize; /*mengatur huruf besar/kecil*/ 
 }
 .span1 {
   color: red;

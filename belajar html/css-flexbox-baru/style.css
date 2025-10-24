@@ -1,0 +1,46 @@
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+.card h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+/* wadah/perent flexnya  */
+.flex-area{
+display: flex;
+/* atur posisi  item secara horizontal */
+justify-content: center;
+/* mengatur jarak antar item */
+gap:12px ;
+/* atur posisi item scr horizontal (sumbu x) */
+align-items:center ;
+
+}
+.alert{
+  width: 600px;
+  background: rgb(152, 204, 255);
+justify-content: space-between;
+border-radius: 8px;
+padding-bottom: 1px;
+}
+.alert button{
+   width: 44px; 
+  height: 36px; 
+  background: #e0e0e0; 
+  border: 1px solid #3d719b;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #222;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
