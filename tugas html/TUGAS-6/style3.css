@@ -1,0 +1,63 @@
+.contenner {
+  text-align: center;
+  
+}
+.contenner h2 {
+  margin: 15px;
+  padding-left: 10px; /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid #22c55e; /*membuat garis tepi di sisi kiri elemen*/
+  font-size: 27px;
+}
+.contenner h1 {
+  color: rgb(22, 59, 182);
+  font-size: 50px;
+  margin: 0;
+}
+.contenner p {
+  text-align: left;
+}.judulawal {
+  text-align: center;
+}
+.judulawal img {
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+}
+.nav {
+  display: flex;
+  justify-content: center; /* biar rata tengah */
+  gap: 20px; /* jarak antar tombol */
+  margin: 20px 0;
+  border-top: 1px solid #e2e2e3;
+  border-bottom: 1px solid #e2e2e3;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.nav a {
+  display: block;
+  text-decoration: none; /* hilangin underline */
+  padding: 10px 20px; /* ruang dalam tombol */
+  border: 1px solid #e5e7eb; /* garis tipis abu */
+  border-radius: 9999px; /* bikin oval/pill */
+  font-family: Arial, sans-serif;
+  color: #374151; /* teks abu gelap */
+  background: #fff; /*latar putih*/
+  width: 90%;
+  font-size: 30px;
+  margin-right:20px ;
+  transition: 0.3s; /*efek halus*/
+}
+.nav a:hover {
+  background: #1d4ed8;
+  color: white; /* efek hover abu muda */
+}
+.nav a.active {
+  background: #1d4ed8; /* biru */
+  color: #fff; /* teks putih */
+  border-color: #1d4ed8;
+}
+.judulawal h3{
+  font-size:20px;
+}
